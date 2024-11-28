@@ -29,9 +29,9 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-teal-500 to-sky-500 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-b from-teal-100 to-sky-100 py-12 px-4">
       <div className="max-w-md mx-auto bg-white rounded-lg shadow-md p-6">
-        <h1 className="text-3xl font-bold mb-6 text-center text-sky-500">Image Upload</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center text-sky-500">Detect Your Skin Disease</h1>
         
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="flex flex-col items-center">

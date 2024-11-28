@@ -16,7 +16,7 @@ export const ProcessImage = async (imgData) => {
         size: imgData.size
       });
   
-      const res = await fetch('http://localhost:8000/get-prediction', {
+      const res = await fetch('https://skintect-backend-hzaeaceabffhamhh.southeastasia-01.azurewebsites.net/get-prediction', {
         method: 'POST',
         body: formData
       });
