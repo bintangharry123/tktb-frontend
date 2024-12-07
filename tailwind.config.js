@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+/** @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,7 +13,11 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['Roboto', 'Arial', 'sans-serif'], // Ganti 'Roboto' dengan font yang diimpor
+      }
     },
   },
   plugins: [],
-};
+}
+
