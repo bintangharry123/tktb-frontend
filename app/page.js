@@ -90,7 +90,7 @@ export default function HomePage() {
         </div>
 
         {/* Form Deteksi */}
-        <div className="max-w-md mx-auto bg-white rounded-lg shadow-md p-6-center">
+        <div className="max-w-md mx-auto-center bg-white rounded-lg shadow-md p-6">
           <h1 className="text-3xl font-bold mb-5 text-center text-sky-500">Detect Your Skin Disease</h1>
 
           <form onSubmit={handleSubmit} className="space-y-6">
