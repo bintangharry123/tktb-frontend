@@ -26,11 +26,15 @@ export default function HomePage() {
     const data = await ProcessImage(selectedImage)
     setResultData(data.result)
   };
+  
+
+  
 
   return (
     <div className="min-h-screen bg-[url('/pexels-juanpphotoandvideo-1242349.jpg')] bg-cover bg-center flex items-center justify-center">
+       <div className="centered">
       {/* Navigation Header */}
-      <div className="bg-blue-800 text-white py-4 px-6 shadow-md fixed top-0 left-0 w-full z-10 flex items-center justify-between">
+      <div className="bg-blue-800/80 text-white py-4 px-6 shadow-md fixed top-0 left-0 w-full z-10 flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <h1 
             style={{
@@ -63,6 +67,7 @@ export default function HomePage() {
         >
           Deteksi penyakit kulit sejak dini!
         </h1>
+      </div>
       </div>
 
       <div className="flex flex-col items-center justify-center space-y-6 px-4 w-full">
